@@ -1,0 +1,129 @@
+body {
+  background-color: #f5f5f5;
+}
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#boxes_1 {
+  display: -webkit-flex;
+  -webkit-flex-direction: reverse;
+  display: flex;
+  flex-direction: reverse;
+  justify-content: center;
+}
+.box1 {
+  width: 170px;
+  height: 290px;
+  margin: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#boxes_1 :first-child {
+  background-color: tomato;
+}
+#boxes_1 :nth-child(2) {
+  background-color: teal;
+}
+
+#boxes_2 {
+  display: -webkit-flex;
+  -webkit-flex-direction: reverse;
+  display: flex;
+  flex-direction: reverse;
+  justify-content: center;
+}
+.box2 {
+  width: 170px;
+  height: 290px;
+  margin: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#boxes_2 :first-child {
+  background-color: burlywood;
+}
+#boxes_2 :nth-child(2) {
+  background-color: thistle;
+}
+
+#nameboxes_1 {
+  display: -webkit-flex;
+  -webkit-flex-direction: reverse;
+  display: flex;
+  flex-direction: reverse;
+  justify-content: center;
+}
+.name1 {
+  position: absolute;
+  top: 120px;
+  width: 165px;
+  height: 95px;
+  margin-right: 195px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+#nameboxes_2 {
+  display: -webkit-flex;
+  -webkit-flex-direction: reverse;
+  display: flex;
+  flex-direction: reverse;
+  justify-content: center;
+}
+.name2 {
+  position: absolute;
+  top: 120px;
+  width: 165px;
+  height: 95px;
+  margin-top: auto;
+  margin-left: 195px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+#nameboxes_3 {
+  display: -webkit-flex;
+  -webkit-flex-direction: reverse;
+  display: flex;
+  flex-direction: reverse;
+  justify-content: center;
+}
+.name3 {
+  position: absolute;
+  top: 120px;
+  width: 165px;
+  height: 95px;
+  margin-top: 320px;
+  margin-right: 195px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+#nameboxes_4 {
+  display: -webkit-flex;
+  -webkit-flex-direction: reverse;
+  display: flex;
+  flex-direction: reverse;
+  justify-content: center;
+}
+.name4 {
+  position: absolute;
+  top: 120px;
+  width: 165px;
+  height: 95px;
+  margin-top: 320px;
+  margin-left: 195px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
